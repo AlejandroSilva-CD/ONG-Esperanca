@@ -1,1 +1,1 @@
-Spa foi implementada
+Spa foi implementada.
