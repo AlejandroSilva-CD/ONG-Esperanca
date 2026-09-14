@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ONG Esperança</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>ONG Esperança</h1>
+
+       <nav>
+    <a href="#inicio">Início</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#cadastro">Seja um colaborador</a>
+</nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio">
+    <h2>Transformando vidas através da solidariedade</h2>
+
+            <p>
+                A ONG Esperança trabalha para transformar a vida de pessoas
+                em situação de vulnerabilidade por meio de ações sociais.
+            </p>
+        </section>
+        
+       <section id="missao">
+    <h2>Nossa missão</h2>
+
+    <img 
+        src="img/ong.png" 
+        alt="Voluntários da ONG Esperança ajudando famílias da comunidade"
+    >
+
+    <p>
+        Nossa missão é promover solidariedade e melhorar a qualidade
+        de vida das pessoas em situação de vulnerabilidade.
+    </p>
+</section>
+<section id="projetos">
+    <h2>Nossos projetos</h2>
+
+    <div id="lista-projetos">
+        <!-- Os projetos serão inseridos pelo JavaScript -->
+    </div>
+</section>
+
+<section id="cadastro">
+    <h2>Seja um colaborador</h2>
+
+    <form id="form-cadastro" novalidate>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" maxlength="14" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" maxlength="15" required>
+
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" maxlength="9" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+
+    <button type="submit">Cadastrar</button>
+
+    <p id="feedback-form" class="feedback"></p>
+
+</form>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ONG Esperança. Todos os direitos reservados.</p>
+    </footer>
+
+<script src="js/validacao.js"></script>
+<script src="js/projetos.js"></script>
+<script src="js/armazenamento.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+        

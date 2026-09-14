@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro - ONG Esperança</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ONG Esperança</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="cadastro.html">Seja um colaborador</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Seja um colaborador</h2>
+
+            <p>
+                Preencha o formulário abaixo para fazer parte das
+                nossas iniciativas solidárias.
+            </p>
+        </section>
+
+        <section>
+
+            <form>
+
+                <div>
+                    <label for="nome">Nome completo:</label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input 
+                        type="text" 
+                        id="cpf" 
+                        name="cpf"
+                        placeholder="000.000.000-00"
+                        maxlength="14"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input 
+                        type="tel" 
+                        id="telefone" 
+                        name="telefone"
+                        placeholder="(00) 00000-0000"
+                        maxlength="15"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input 
+                        type="text" 
+                        id="cep" 
+                        name="cep"
+                        placeholder="00000-000"
+                        maxlength="9"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="endereco">Endereço:</label>
+                    <input 
+                        type="text" 
+                        id="endereco" 
+                        name="endereco"
+                        required
+                    >
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="colaboracao">Como deseja colaborar?</label>
+
+                    <select id="colaboracao" name="colaboracao" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="voluntario">Voluntariado</option>
+                        <option value="doacao">Doação</option>
+                        <option value="eventos">Participação em eventos</option>
+                        <option value="divulgacao">Divulgação</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+
+                    <textarea 
+                        id="mensagem" 
+                        name="mensagem"
+                        rows="5"
+                        placeholder="Conte-nos como você gostaria de ajudar..."
+                    ></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input 
+                        type="checkbox" 
+                        id="termos" 
+                        name="termos"
+                        required
+                    >
+
+                    <label for="termos">
+                        Aceito participar das iniciativas da ONG.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Enviar cadastro
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ONG Esperança. Todos os direitos reservados.</p>
+    </footer>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
