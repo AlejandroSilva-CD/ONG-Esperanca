@@ -1,5 +1,7 @@
 # ONG Esperança
 
+Um trabalho feito para a atividade de Faculdade.
+
 Site desenvolvido para a ONG Esperança com o objetivo de apresentar seus projetos, sua missão e permitir o cadastro de colaboradores.
 
 ## Tecnologias utilizadas
